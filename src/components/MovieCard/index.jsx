@@ -1,7 +1,7 @@
 import getMovies from "../../service/api.jsx";
 import {ImgCard, Div, Card} from "./style";
 import { useEffect, useState, useContext } from 'react';
-import { Context } from '../context/context';
+import { Context } from '../../context/context';
 
 function MovieCard() {
   const [movies, setMovies] = useState([]);
