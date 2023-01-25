@@ -2,7 +2,7 @@ import axios from "axios";
 import {ImgCard, Div, Card} from "./style";
 import { useEffect, useState } from 'react';
 
-function MovieCard() {
+function MovieCard({orderBySelected}) {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -13,13 +13,15 @@ function MovieCard() {
 
   return ( 
     <Div>
-      {movies.map((movie) => (
+      {movies
+        .sort((a, b) => a[orderBySelected] < b[orderBySelected] ? -1 : a[orderBySelected] > b[orderBySelected] ? 1 : 0)
+        .map((movie) => (
         <Card key={movie.id}>
           <p>{movie.title}</p>
           <ImgCard src={movie.imageUrl} alt={movie.title} />
-          <p>{movie.director}</p>
-          <p>{movie.country}</p>
-          <p>{movie.releasedYear}</p>
+          <p>{`Diretor: ${movie.director}`}</p>
+            <p>{`País: ${movie.country}`}</p>
+            <p>{`Ano de lançamento: ${movie.releasedYear}`}</p>
         </Card>
       ))}
     </Div>

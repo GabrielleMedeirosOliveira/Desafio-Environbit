@@ -1,11 +1,11 @@
 import "./styles/reset.css"
-import MovieCard from "./components/MovieCard";
+import HomeCard from "./components/HomeCard";
 
 function App() {
   return (
     <div className="App">
      <h1>Desafio Environbit</h1>
-     <MovieCard />
+     <HomeCard />
     </div>
   );
 }
