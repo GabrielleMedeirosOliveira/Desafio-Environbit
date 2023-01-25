@@ -1,9 +1,11 @@
 import "./styles/reset.css"
+import MovieCard from "./components/MovieCard";
 
 function App() {
   return (
     <div className="App">
-     <h1>Eu funciono!</h1>
+     <h1>Desafio Environbit</h1>
+     <MovieCard />
     </div>
   );
 }

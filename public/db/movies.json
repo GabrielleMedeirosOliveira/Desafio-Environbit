@@ -4,7 +4,7 @@
         "imageUrl": "https://br.web.img2.acsta.net/medias/nmedia/18/93/88/04/20282944.jpg",
         "country": "Estados Unidos e Inglaterra",
         "director": "Alfonso Cuarón",
-        "tittle": "Harry Potter eo Prisioneiro de Azkaban",
+        "title": "Harry Potter e o Prisioneiro de Azkaban",
         "releasedYear": 2004
     },
     {
@@ -12,7 +12,7 @@
         "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2022/08/22/homem_aranha_the_more_fun_stuff-26280289.jpg",
         "country": "Estados Unidos",
         "director": "Jon Watts",
-        "tittle":"Homem Aranha: Sem Volta pra Casa",
+        "title":"Homem Aranha: Sem Volta pra Casa",
         "releasedYear": 2021
     },
     {
@@ -20,7 +20,7 @@
         "imageUrl": "https://viureview.com.br/images/filmes4/Entre-facas-e-segredos.jpg",
         "country": "Estados Unidos",
         "director": "Rian Johnson",
-        "tittle": "Entre Facas e Segredos",
+        "title": "Entre Facas e Segredos",
         "releasedYear": 2019
     },
     {
@@ -28,31 +28,31 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9b/Avengers_Endgame.jpg/250px-Avengers_Endgame.jpg",
         "country": "Estados Unidos",
         "director": "Anthony Russo e Joe Russo",
-        "tittle": "Vingadores: Ultimato",
+        "title": "Vingadores: Ultimato",
         "releasedYear": 2019
     },
     {
         "id": 5,
-        "imageUrl": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F75F013DECACEDF74E589AD665E4B55DC1A0C18F29D794BCF792E8633EFBF36E/scale?width=1200&aspectRatio=1.78&format=jpeg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/thumb/0/08/Thor_Love_and_Thunder_poster.jpg/250px-Thor_Love_and_Thunder_poster.jpg",
         "country": "Estados Unidos",
         "director": "Taika Waititi",
-        "tittle": "Thor: Amor e Trovão",
+        "title": "Thor: Amor e Trovão",
         "releasedYear": 2022
     },
     {
         "id": 6,
-        "imageUrl": "https://br.web.img3.acsta.net/c_310_420/medias/nmedia/18/87/76/31/20028593.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/thumb/2/28/Beauty_and_the_Beast_Disney.jpg/250px-Beauty_and_the_Beast_Disney.jpg",
         "country": "Estados Unidos",
         "director": " Gary Trousdale, Kirk Wise",
-        "tittle": "Bela ea Fera (Desenho)",
+        "title": "Bela ea Fera (Desenho)",
         "releasedYear": 1992
     },
     {
         "id": 7,
-        "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/1920x1080_comclassifica_231_227_o_a7ebb7a4.png?region=0,0,1920,1080",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/thumb/1/17/Soul_ver5.jpg/250px-Soul_ver5.jpg",
         "country": "Estados Unidos",
         "director": "Pete Docter",
-        "tittle": "Soul",
+        "title": "Soul",
         "releasedYear": 2020
     },
     {
@@ -60,7 +60,7 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/thumb/5/58/Star_Wars_Epis%C3%B3dio_III_A_Vingan%C3%A7a_dos_Sith.jpg/250px-Star_Wars_Epis%C3%B3dio_III_A_Vingan%C3%A7a_dos_Sith.jpg",
         "country": "Estados Unidos",
         "director": "George Lucas",
-        "tittle": "Star Wars: Episódio III – A Vingança dos Sith",
+        "title": "Star Wars III : A Vingança dos Sith",
         "releasedYear": 2005
     }
 ]
