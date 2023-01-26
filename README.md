@@ -1,4 +1,4 @@
-# Desafio-Environbit
+# Desafio Environbit
 Desafio proposto pela startup Environbit, no qual tenho que criar um site onde irá listar os meus filmes favoritos.
 
 Inicialmente os filmes ja são listados em ordem de ano de lançamento e é possível modificar essa ordem para país ou nome. Como acréscimo é possível fazer a pesquisa por digitação inserindo o nome do filme, caso não haja nenhum filme ira aparecer uma mensagem na tela informando.
