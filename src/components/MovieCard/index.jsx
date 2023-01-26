@@ -1,5 +1,5 @@
 import getMovies from "../../service/api.jsx";
-import {ImgCard, Div, Card} from "./style";
+import { ImgCard, Div, Card, NoCard } from "./style";
 import { useEffect, useState, useContext } from 'react';
 import { Context } from '../../context/context';
 
@@ -37,9 +37,9 @@ function MovieCard() {
         </Card>
       )): (
         <div>
-          <h1>
+          <NoCard>
             Desculpe, não foi possível encontrar o filme que procura!
-          </h1>
+          </NoCard>
         </div>)}
     </Div>
   );

@@ -1,12 +1,12 @@
 import "./styles/reset.css"
+import {Div} from "./styles/index"
 import HomeCard from "./components/HomeCard";
 
 function App() {
   return (
-    <div className="App">
-     <h1>Desafio Environbit</h1>
+    <Div className="App">
      <HomeCard />
-    </div>
+    </Div>
   );
 }
 

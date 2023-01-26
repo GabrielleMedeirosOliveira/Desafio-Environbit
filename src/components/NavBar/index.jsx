@@ -1,5 +1,7 @@
 import { useContext } from 'react';
 import { Context } from '../../context/context';
+import { BsSearch } from 'react-icons/bs';
+import {DivIcon, Divnav, Navbar, Filter,FilterSelect, Link, SearchBar,Placeholder} from "./style"
 
 function NavBar() {
   const {
@@ -15,27 +17,40 @@ function NavBar() {
   };
 
   return (
-    <nav>
-      <label htmlFor="findByName">
-        <input
-          type="text"
-          onChange={ handleChangeInput }
-        />
-      </label>
-      <label htmlFor="filter">
-        Ordenar por:
-        <select
-          name="filter"
-          id="filter"
-          onChange={ handleChangeSelect }
-          className="ml-2"
+    <Divnav>
+       <Link
+          href="https://environbit.com.br/"
+          target="_blank"
+          rel="noreferrer"
         >
-          <option value="releasedYear">Lançamento</option>
-          <option value="title">Nome</option>
-          <option value="country">País</option>
-        </select>
-      </label>
-    </nav>
+          &#x1F3AC; Desafio Environbit &#x1F3AC;
+        </Link>
+      <Navbar>
+        <Filter htmlFor="filter">
+          Ordenar por:
+          <FilterSelect
+            name="filter"
+            id="filter"
+            onChange={ handleChangeSelect }
+            className="ml-2"
+          >
+            <option value="releasedYear">Lançamento</option>
+            <option value="title">Nome</option>
+            <option value="country">País</option>
+          </FilterSelect>
+        </Filter>
+        <SearchBar htmlFor="findByName">
+          <Placeholder
+          placeholder='Pesquise por filme'
+            type="text"
+            onChange={ handleChangeInput }
+          />
+          <DivIcon>
+            <BsSearch />
+          </DivIcon>
+        </SearchBar>
+      </Navbar>
+    </Divnav>
   );
 }
 
